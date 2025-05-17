@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# SQLite database
+DEBank/db/*.db
+
+# VSCode or JetBrains settings (optional)
+.vscode/
+.idea/
+
+# Environment files
+.env
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# Ignore the database and logs
+DEBank/db/
+DEBank/logs/
+
+# Python cache and environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv
