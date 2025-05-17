@@ -25,9 +25,9 @@ This is a basic command-line banking system built with Python and SQLAlchemy. It
 
 ## Project Structure
 
-banking_system/                     
-│
-├── DEBank/                           #Main package
+banking_system/
+├── UML_diagram.png                     
+├── DEBank/
 │   ├── __init__.py
 │   ├── main.py                     
 │   ├── seed.py
@@ -40,13 +40,13 @@ banking_system/
 │   │   ├── employee.py
 │   │   ├── service.py
 │   │   └── transaction.py
-│   ├── utils/                       # Utilities and helpers
+│   ├── utils/
 │   │   ├── __init__.py
 │   │   ├── id_generator.py
 │   │   └── logger.py 
-│   └── db/                         # Database storage
+│   └── db/
 │   │   └── bank.db 
-│   └── logs/                        # Log output directory
+│   └── logs/
 │       └── banking.log                 
 │
 ├── tests/                          
@@ -57,6 +57,12 @@ banking_system/
 ├── LICENSE                         
 ├── README.md                       
 └── .gitignore  
+---
+
+## UML Diagram
+
+![UML Diagram](UML_Diagram.png)
+
 ---
 
 ## How to Use It
