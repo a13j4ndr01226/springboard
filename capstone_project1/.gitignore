@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+
+# VS Code
+.vscode/
+
+# API keys and secrets
+.env
+
+# Bytecode and cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env/
+
+# OS metadata
+.DS_Store
+
+# Local data and cache
+data/cache/
+*.db
