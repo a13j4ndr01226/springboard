@@ -35,41 +35,41 @@ Note: artists_scraper and artists_enricher are the 2 main codes for extraction.
 
 ## Before Running it
 
-    1. Create a `.env` file and save it under a folder config/ in the project root to store your API keys:
-        SPOTIFY_CLIENT_ID=your_spotify_client_id
-        SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
-    
-    2. Install dependencies:
-        pip install -r requirements.txt
+1. Create a `.env` file and save it under a folder config/ in the project root to store your API keys:
+SPOTIFY_CLIENT_ID=your_spotify_client_id
+SPOTIFY_CLIENT_SECRET=your_spotify_client_secret
 
-    3. Ensure internet access and a valid IP address when running the Google Trends portion, as repeated requests 
-    may trigger temporary blocks.
+2. Install dependencies:
+pip install -r requirements.txt
+
+3. Ensure internet access and a valid IP address when running the Google Trends portion, as repeated requests 
+may trigger temporary blocks.
 
 ## How to use it
 
-    1. Run the Spotify scraper to extract rising artists by genre and region
-        python artists._scraper.py
-    
-    2. Run the Google Trends enricher to get daily interst scores for those artists
-        python artists_enricher.py
+1. Run the Spotify scraper to extract rising artists by genre and region
+    python artists._scraper.py
 
-    3. Output files will be saved in the data/ directory
+2. Run the Google Trends enricher to get daily interst scores for those artists
+    python artists_enricher.py
+
+3. Output files will be saved in the data/ directory
 
 ## Technologies
 
-    Python 3.11
+Python 3.11
 
-    Spotify Web API – for playlist and artist metadata
+Spotify Web API – for playlist and artist metadata
 
-    Google Trends (via pytrends) – for regional interest over time
+Google Trends (via pytrends) – for regional interest over time
 
-    pandas – for data structuring
+pandas – for data structuring
 
-    requests – for API interaction
+requests – for API interaction
 
-    dotenv – for managing credentials
+dotenv – for managing credentials
 
-    tqdm – for progress feedback
+tqdm – for progress feedback
 
 ## License
 
